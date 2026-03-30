@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 30, 2026 at 11:04 AM
+-- Generation Time: Mar 30, 2026 at 11:13 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -189,7 +189,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('IbnXS2ruG8TReiRrkuSDUcrPewyZ1Ds6xCIUwKbZ', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoicXdTOHZNTmZreWhvRzdtTnNPYjg4MEJjSE1hS2ZkZG5rc0VRWGZJRCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6Mjp7czozOiJ1cmwiO3M6Mjg6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9iYXJhbmciO3M6NToicm91dGUiO047fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7fQ==', 1774861408);
+('sicwhX2OzGTkkHkPrrcOb5BCrRjHYCQ8pK5xSvpZ', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiRWFJSm5yMFB4OGpWQXhnanphb3lHNUhQQUdJbTdvQ1BVWWxuZjZDaiI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6Mjp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9sb2dpbiI7czo1OiJyb3V0ZSI7czo1OiJsb2dpbiI7fX0=', 1774861969);
 
 -- --------------------------------------------------------
 
@@ -228,7 +228,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `role`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'superadmin', 'superadmin@gmail.com', NULL, '$2y$12$SFXvnocLd19WYgRRLy538OFUBRVzlkLEmG8yq33STXliOtdumWxu2', 'Super Admin', NULL, '2026-03-30 02:02:51', '2026-03-30 02:02:51');
+(2, 'Ryan', 'superadmin@gmail.com', NULL, '$2y$12$cBreB/DJeFTmGN8gRARfTevcsif3LeIiQZAHboVpLJxOC6RD8Mw5S', 'Super Admin', NULL, '2026-03-30 02:12:32', '2026-03-30 02:12:32');
 
 --
 -- Indexes for dumped tables
@@ -345,7 +345,7 @@ ALTER TABLE `transaksis`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
